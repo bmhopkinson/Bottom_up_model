@@ -1,0 +1,1 @@
+./output/0443_summer_PvE_GPP_20190920.txt	./data/0443_02122016_mesh_metricRot.off	./data/0443_02122016_nViewNet_RProd_preds.txt	./data/LFM_dir_diff_0443_02122016_diffuse_coral_20190307.mat	./data/smarts_results_KL_July.txt	./data/PvE_data_by_class_ReefProdPaper_20190929.txt	GPP

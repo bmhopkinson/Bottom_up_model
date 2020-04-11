@@ -1,0 +1,1 @@
+mesh: ./output/0443_summer_PvE_GPP_20190920.txt	Ek:	 2.1009E+02	1.8341E+01	Pmax:	1.4005E+01	1.7255E-01	Offset:	0.0000E+00	0.0000E+00
