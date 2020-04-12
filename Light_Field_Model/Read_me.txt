@@ -1,4 +1,4 @@
-these matlab scripts and functions are used to model the light intensities incident on a 3D mesh (modeling a coral reef).
+these MATLAB scripts and functions are used to model the light intensities incident on a 3D mesh (modeling a coral reef).
 1. Dependencies:
 	- matGeom Toolbox (https://github.com/mattools/matGeom)
 	- aabb tree Toolbox (https://github.com/dengwirda/aabb-tree)
