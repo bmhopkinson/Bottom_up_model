@@ -15,7 +15,9 @@ Owen, D. P., M. H. Long, W. K. Fitt, B.M. Hopkinson. 2021. Taxon-specific primar
 ![Spatial_Productivity](doc/reef_spatial_prod_small.jpg)
 
 # Light Field Model
-![Light_Field](doc/light_field_movie.mov)
+
+https://user-images.githubusercontent.com/47015608/133843124-920894f4-e376-442e-bbd8-1409bee3937a.mp4
+
 as described in Owen et al. 2021: 
 The model considers direct and diffuse PAR separately and then sums the intensities of these two components to calculate the total PAR irradiance incident on each mesh face. PAR (400 – 700 nm) is not spectrally resolved. The direct and diffuse irradiance at the ocean surface was determined using the Simplified Model of Atmospheric Radiative Transfer of Sunshine (SMARTS Windows version 2.9.5i1.3) (Gueymard 2005) using the subtropical reference atmosphere, maritime aerosol model, a regional and tilted surface albedo of water/calm ocean, and a spectral range of 400 nm to 700 nm, for the hours of 6 AM to 7 PM on July 5 (“Summer”) and 7 AM to 5 PM on December 15 (“Winter”) at Little Grecian Reef. For site LG9, the SMARTS “Summer” date was shifted to June 27 to align with eddy covariance productivity data collected at this location (see below). The model was run on surfaces at four evenly spaced tilt and azimuth angles to parameterize diffuse irradiance as a function of these angles.  
 As direct light passes through the air-water interface its intensity is reduced by reflection, which is treated using Fresnel’s equation, and its angle is modified by refraction (Kirk 2011). The intensity of direct light is attenuated with distance traveled through the water based on a diffuse attenuation coefficient for downwelling irradiance (Kd) of 0.1 m-1 (based on Zepp et al. 2008 and Ong et al. 2018), accounting for light absorption and scattering by the water column above the reef benthos. When direct light intercepts a mesh element, the angle of incidence is used to determine the intensity and a ray is projected from mesh element back to the sun to ensure the line of sight is not blocked by another part of the mesh. The line of sight test is accelerated using a bounding volume hierarchy. 
